@@ -4,6 +4,7 @@
   "description": "Car Rental Management System with MERN Stack",
   "main": "server/index.js",
   "scripts": {
+    "start": "node server/index.js",
     "server": "nodemon server/index.js",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
