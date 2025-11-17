@@ -7,6 +7,7 @@ const requiredEnvVars = [
   'MONGODB_URI',
   'NODE_ENV',
   'PORT',
+  'FRONTEND_URL',
 ];
 
 const validateEnv = () => {
