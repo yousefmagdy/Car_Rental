@@ -29,13 +29,13 @@ const Table = <T extends { _id: string }>({
     );
   }
 
-  if (!data || data.length === 0) {
-    return (
-      <div className="text-center py-12">
-        <p className="text-gray-500 text-lg">No data available</p>
-      </div>
-    );
-  }
+  // if (!data || data.length === 0) {
+  //   return (
+  //     <div className="text-center py-12">
+  //       <p className="text-gray-500 text-lg">No data available</p>
+  //     </div>
+  //   );
+  // }
 
   return (
     <div className="overflow-x-auto shadow-md rounded-lg">
