@@ -29,7 +29,7 @@ const Table = <T extends { _id: string }>({
     );
   }
 
-  if (data.length === 0) {
+  if (!data || data.length === 0) {
     return (
       <div className="text-center py-12">
         <p className="text-gray-500 text-lg">No data available</p>
